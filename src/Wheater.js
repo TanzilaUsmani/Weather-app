@@ -18,7 +18,7 @@ const url=`https://api.openweathermap.org/data/2.5/weather?q=${search}&units=met
         <>
         <div className="container">
         <div className="box">
-      <label for="usr">City Name:</label>
+      <label for="usr">Enter City Name:</label>
       <input type="search" className="form-control" id="usr" onChange={(e)=>{setSearch(e.target.value)}}/ >
     
     {!city?(
